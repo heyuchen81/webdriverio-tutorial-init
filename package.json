@@ -1,0 +1,15 @@
+{
+  "name": "webdriverio-tutorial-init",
+  "version": "1.0.0",
+  "description": "The first webdriverio practice from the official website.  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "XinHe <xin.he@ingenta.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "wdio-cucumber-framework": "0.0.6",
+    "webdriverio": "^4.0.8"
+  }
+}
