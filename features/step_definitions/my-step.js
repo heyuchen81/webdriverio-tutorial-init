@@ -21,7 +21,8 @@ module.exports = function(){
 
     this.Then(/^should the title of the page be "([^"]*)"$/, function(expectedTitle) {
         var title = browser.getTitle() + "15";
-        assert.equal(title, expectedTitle + "15", ' title is "'+ title + '" but should be "'+ expectedTitle);
+        console.log("THIS IS A CUSTOMISED LOG MADE BY XIN HE..........................")
+        assert.equal(title, expectedTitle, ' title is "'+ title + '" but should be "'+ expectedTitle);
     });
 
 };
