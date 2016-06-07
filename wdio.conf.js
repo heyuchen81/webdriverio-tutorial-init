@@ -173,7 +173,7 @@ exports.config = {
     // beforeCommand: function (commandName, args) {
     // },
     //
-    // Runs after a WebdriverIO command gets executed
+    // Runs after a WebdriverIO command gets executedW
     // afterCommand: function (commandName, args, result, error) {
     // },
     //
